@@ -2,6 +2,7 @@
     box-sizing: border-box;
 }
 
+/* nu era deloc necesar sa limitezi containerul la doar height-ul viewport-ului. Este foarte mult continut si asa vine foarte inghesuit la height-ul asta foarte mic. scroll is a good thing here. ti-am atasat screenshot-uri la cum vad eu si pe desktop si pe mobile, nu cred ca e tocmai ce ai dorit */
 html, body, .container {
     height: 100%;
     width: 100%;
@@ -114,6 +115,7 @@ section:nth-of-type(2) {
     font-size: 1em;
 }
 
+/* categoria de produs trebuia pozitionata in stanga jos cu absolute fata de parintele relative, in mometul de fata este chiar sub text */
 .image-wrapper nav:nth-child(3) {
     width: 130px;
     font-size: 0.9em;
