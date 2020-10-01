@@ -289,10 +289,6 @@ section:nth-of-type(2) {
 
 }
 
-.main-section nav {
-    text-align: center;
-}
-
 .image-wrapper div:nth-child(2) {
     color: #c09c78;
 }
