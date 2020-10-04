@@ -8,13 +8,38 @@
     <meta name="author" content="Eveline Pavel">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive2-layout</title>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Montserrat:wght@100&family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
     <link href="bundles/font-awesome/css/all.css" rel="stylesheet" >
     <link rel="stylesheet" type="text/css" href="resources/main.css">
 </head>
 
 <body>  
     <div class="container">
+
+        <section class="mobile-wrapper hidden" id="menu-mobile">
+            <div id="close-menu">
+                <img src="assets/icon-close.png" alt="Close">
+            </div>
+
+            <div class="left-text-corner">go.arch</div>
+
+            <nav class="mobile-navigation-menu">
+            <div><a href="http://www.google.com">Home</a></div>
+            <div><a href="http://www.google.com">About us</a></div>
+            <div><a href="http://www.google.com">Projects</a></div>
+            <div><a href="http://www.google.com">Blog</a></div>
+            <div><a href="http://www.google.com">Contact us</a></div>
+            </nav>  
+            
+            <div class="fotter-icons">
+                <div>
+                    <i class="far fa-image"></i>
+                </div>
+                <div>
+                    <i class="fab fa-facebook-f"></i>
+                </div>
+            </div>
+        </section>
 
         <section>   
             <header>
@@ -30,8 +55,8 @@
                     <a href="http://www.google.com">Blog</a>
                     <a href="http://www.google.com">Contact us</a>
                 </nav>
-                <nav class="menu-mobile">
-                    <a><i class="fas fa-bars"></i></a>
+                <nav class="menu-mobile" id="mobile-menu">
+                    <a><i class="fas fa-bars"></i></a>  
                 </nav>
             </header>
             <div class="projects-wrapper">Projects</div>
@@ -105,6 +130,7 @@
         </section>
         
     </div>
+    <script src="resources/main.js"></script>
 </body>
 
 </html>
