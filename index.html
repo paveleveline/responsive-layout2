@@ -15,7 +15,9 @@
 
 <body>  
     <div class="container">
-
+        <!-- aceasta parte de layout trebuie sa fie separata de continutul vizualizat pe desktop, deci ar trebuie sa fie sibling cu .container -->
+        <!-- altfel nu este foarte consistent ca le pui pe toate impreuna si ai nevoie de foarte multe workaround-uri care nu sunt foarte clean ca sa mearga ok -->
+        <!-- sfatul meu ar fi sa refaci partea astea, daca tot iei dintr-o parte si pui intr-alta risti sa te chinui foarte mult fara prea mult success -->
         <section class="mobile-wrapper hidden" id="menu-mobile">
             <div id="close-menu">
                 <img src="assets/icon-close.png" alt="Close">
