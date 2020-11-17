@@ -14,35 +14,28 @@
 </head>
 
 <body>  
+    <div class="mobile-wrapper hidden" id="menu-mobile">
+        <div id="close-menu">
+            <img src="assets/icon-close.png" alt="Close">
+        </div>
+        <div class="left-text-corner">go.arch</div>
+        <nav class="mobile-navigation-menu ">
+        <div><a href="http://www.google.com">Home</a></div>
+        <div><a href="http://www.google.com">About us</a></div>
+        <div><a href="http://www.google.com">Projects</a></div>
+        <div><a href="http://www.google.com">Blog</a></div>
+        <div><a href="http://www.google.com">Contact us</a></div>
+        </nav>  
+        <div class="fotter-icons">
+            <div>
+                <i class="far fa-image"></i>
+            </div>
+            <div>
+                <i class="fab fa-facebook-f"></i>
+            </div>
+        </div>
+    </div>
     <div class="container">
-        <!-- aceasta parte de layout trebuie sa fie separata de continutul vizualizat pe desktop, deci ar trebuie sa fie sibling cu .container -->
-        <!-- altfel nu este foarte consistent ca le pui pe toate impreuna si ai nevoie de foarte multe workaround-uri care nu sunt foarte clean ca sa mearga ok -->
-        <!-- sfatul meu ar fi sa refaci partea astea, daca tot iei dintr-o parte si pui intr-alta risti sa te chinui foarte mult fara prea mult success -->
-        <section class="mobile-wrapper hidden" id="menu-mobile">
-            <div id="close-menu">
-                <img src="assets/icon-close.png" alt="Close">
-            </div>
-
-            <div class="left-text-corner">go.arch</div>
-
-            <nav class="mobile-navigation-menu ">
-            <div><a href="http://www.google.com">Home</a></div>
-            <div><a href="http://www.google.com">About us</a></div>
-            <div><a href="http://www.google.com">Projects</a></div>
-            <div><a href="http://www.google.com">Blog</a></div>
-            <div><a href="http://www.google.com">Contact us</a></div>
-            </nav>  
-            
-            <div class="fotter-icons">
-                <div>
-                    <i class="far fa-image"></i>
-                </div>
-                <div>
-                    <i class="fab fa-facebook-f"></i>
-                </div>
-            </div>
-        </section>
-
         <section>   
             <header>
                 <div class="grey-top-box">
@@ -95,7 +88,6 @@
                 <div>Interior</div>
             </div> 
         </section>
-
             <footer>
                 <div class="button-wrapper first">
                     <button type="button">More projects</button>
@@ -105,33 +97,23 @@
                     <span>get</span>
                     <span>in touch</span>
                 </div>
-
                 <form class="form-details">
                     <label for="name">Name</label>
                     <input required class="input-validation" type="text" id="name" placeholder="Name"/>
-                    
                     <label for="phone">Phone</label>
                     <input required class="input-validation" type="number" id="phone" placeholder="Phone"/><br>
-
                     <label for="email">Email</label>
                     <input required class="input-validation" type="email" id="email" placeholder="Email"/>
-
                     <label for="company">Company</label>
                     <input required class="input-validation" type="text" id="company" placeholder="Company"/>
-                
                     <label for="message">Message</label>
                     <input required class="input-validation" type="text" id="message" placeholder="Message"/>
-
                     <div class="button-wrapper">
                     <button type="submit">Send &#10141 </button>
                     </div> 
-
-                </form>
-                
+                </form> 
             </footer>
-        
     </div>
     <script src="resources/main.js"></script>
 </body>
-
 </html>
