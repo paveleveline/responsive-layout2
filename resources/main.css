@@ -159,13 +159,13 @@ position: relative;
 
 button {
 color: whitesmoke;
-font-size: 0.5em;
+font-size: 0.7em;
 text-transform: uppercase;
 border-radius: 25px;
-width: 90px;
-line-height: 1.3em;
+width: 200px;
+line-height: 1.4em;
 text-align: center;
-padding: 5px;
+padding: 15px;
 background-color: #3d3d3d;
 border: none;
 cursor: pointer;
@@ -173,14 +173,13 @@ cursor: pointer;
 
 button[type="submit"] {
     background-color:#c09c78 ;
-    margin-top: 0;
-    transform: translateY(-120%);
+    transform: translateY(-70%);
 }
 
 .text-fotter {
     padding: 0.8em;
-    font-size: 1.5em;
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 2.2em;
+    font-family: 'Open Sans', sans-serif;
     letter-spacing: 0.1em;
 }
 
@@ -196,19 +195,19 @@ input[class="input-validation"] {
 
 .form-details input::placeholder {
     color: whitesmoke;
-    font-size: 0.6em;
+    font-size: 0.8em;
     padding: 1em;
 }
 
 .form-details input {
-    width: 120px;
-    height: 28px;
-    margin-right: 0.5em;
+    width: 320px;
+    height: 65px;
+    margin: 1.5em 0em 0em 1.5em;
 }
 
 input[id="message"] {
-    height: 63px;
-    transform: translateY(-56%);
+    height: 150px;
+    transform: translateY(-57%);
     vertical-align: top;
     display: table-cell;
 }
@@ -217,7 +216,7 @@ footer {
     align-items: center;
     display: flex;
     flex-direction: column;
-    height: 270px;
+    height: 510px;
     background-color: #2b2b2b ;
     padding: 2em;
     color: whitesmoke;
@@ -359,17 +358,13 @@ section:nth-of-type(3) {
 }
 
 footer { 
-    padding: 2.3em 0.8em;
-    height: 350px;
+    height: 630px;
+    padding-left: 0em;
 }
 
-.text-fotter {
-    padding-top: 0em;
-}
-
-.button-wrapper {
+.button-wrapper{
     justify-content: flex-end;
- }
+}
 
 .form-details input {
     width: 100%;
@@ -377,8 +372,15 @@ footer {
 }
 
 input[id="message"] {
-   margin-bottom: 2em;
+   margin-bottom: 5em;
     height: 30%;
     transform: translateY(0%);
+}
+
+button[type="submit"] {
+    width: 130px;
+    height: 40px;
+    padding-top: 13px;
+    margin-right: -1.8em;
 }
 }
